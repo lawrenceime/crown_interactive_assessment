@@ -1,11 +1,11 @@
 "use client";
 
 import React, { useState } from "react";
-import { Sidebar } from "../components/dashboard/Sidebar";
-import { Header } from "../components/dashboard/Header";
-import { Stepper } from "../components/dashboard/Stepper";
-import { FxTransferForm } from "../components/dashboard/FxTransferForm";
-import { ChevronsLeftIcon, ChevronsRightIcon } from "../components/dashboard/Icons";
+import { Sidebar } from "../../components/dashboard/Sidebar";
+import { Header } from "../../components/dashboard/Header";
+import { Stepper } from "../../components/dashboard/Stepper";
+import { FxTransferForm } from "../../components/dashboard/FxTransferForm";
+import { ChevronsLeftIcon, ChevronsRightIcon } from "../../components/dashboard/Icons";
 
 export default function DashboardScreen() {
   const [collapsed, setCollapsed] = useState(false);

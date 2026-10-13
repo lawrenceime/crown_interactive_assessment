@@ -1,4 +1,4 @@
-import DashboardScreen from "./feature/DashboardScreen";
+import DashboardScreen from "./feature/dashboard";
 
 export default function Home() {
   return <DashboardScreen />;
