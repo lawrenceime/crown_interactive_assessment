@@ -1,8 +1,8 @@
 "use client";
 
 import React, { useState } from "react";
-import { Button } from "../../../components/Button";
-import { Input } from "../../../components/Input";
+import { Button } from "../../../components/shared/Button";
+import { Input } from "../../../components/shared/Input";
 import { useRouter } from "next/navigation";
 
 export default function LoginScreen() {
