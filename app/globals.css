@@ -14,7 +14,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #ffffff;
     --foreground: #ededed;
   }
 }
@@ -26,6 +26,7 @@ body {
 }
 
 /* Dev overlay badge cleanup */
-nextjs-portal, [data-nextjs-dev-overlay] {
+nextjs-portal,
+[data-nextjs-dev-overlay] {
   display: none !important;
 }
