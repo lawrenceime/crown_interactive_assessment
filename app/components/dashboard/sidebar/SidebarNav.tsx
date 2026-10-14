@@ -27,7 +27,7 @@ export function SidebarNav({
   };
 
   return (
-    <div className="flex flex-col flex-1 min-h-0 overflow-y-auto overflow-x-hidden">
+    <div className="flex flex-col justify-between  flex-1 min-h-0 overflow-y-auto overflow-x-hidden">
       {/* Navigation section: MAIN */}
       <div className="px-3 pt-6 pb-2">
         {!collapsed && (
