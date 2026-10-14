@@ -91,9 +91,8 @@ Ensure you have the following installed on your machine:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/lawrenceime/crown_interactive_assessment.git
-   cd crown_assessment
+   cd crown_interactive_assessment
    ```
-   *(Note: If working from the local workspace folder, navigate into `crown_login`)*
 
 2. **Install dependencies**:
    ```bash
